@@ -172,6 +172,12 @@ a:hover {
     text-decoration: none;
 }
 
+.view a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
 .btn {
     background: #11CDD4;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
