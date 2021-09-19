@@ -126,6 +126,52 @@ a:hover {
     padding: 20px 0;
 }
 
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.sub-title {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview img {
+    width: 400px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.view {
+    -webkit-border-radius: 50;
+    -moz-border-radius: 50;
+    border-radius: 50px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 25px;
+    background: #30e3cb;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.view:hover {
+    background: #2bc4ad;
+    text-decoration: none;
+}
+
 .btn {
     background: #11CDD4;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
